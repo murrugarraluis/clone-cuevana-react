@@ -1,19 +1,20 @@
 import {MovieCard} from "./MovieCard.jsx";
+import {MovieItem} from "./MovieItem.jsx";
 
 export const MovieList = ({movies}) => {
   return (
-    <div className='w-full max-w-3xl p-2 flex gap-2 flex-wrap'>
+    <div className='w-full flex flex-col gap-6'>
       {
         movies.map((movie) => {
-          return (
-            <MovieCard
-              key={movie.TMDbId}
-              title={movie.titles.name}
-              year={movie.releaseDate.slice(0, 4)}
-              posterUrl={movie.images.poster}
-            />
-          )
-        })
+            return (
+              <MovieItem
+                key={movie.TMDbId}
+                name={movie.titles.name}
+                urlImagen={movie.images.poster}
+              />
+            )
+          }
+        )
       }
     </div>
   )
