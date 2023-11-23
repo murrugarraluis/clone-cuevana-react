@@ -1,0 +1,145 @@
+{
+  "movies": [
+    {
+      "titles": {
+        "name": "Leo"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/original/hs41WYhEuaq4PaBbtaoCfGFEebi.jpg"
+      },
+      "TMDbId": "1075794",
+      "runtime": 105,
+      "releaseDate": "2023-11-11T00:00:00.000Z",
+      "url": {
+        "slug": "movies/1075794/leo"
+      },
+      "rate": {
+        "average": 7
+      }
+    },
+    {
+      "titles": {
+        "name": "Oppenheimer"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/original/ncKCQVXgk4BcQV6XbvesgZ2zLvZ.jpg"
+      },
+      "TMDbId": "872585",
+      "runtime": 181,
+      "releaseDate": "2023-07-19T00:00:00.000Z",
+      "url": {
+        "slug": "movies/872585/oppenheimer"
+      },
+      "rate": {
+        "average": 8.2
+      }
+    },
+    {
+      "titles": {
+        "name": "Trolls 3: Se armó la banda"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/original/yco6dWR1W3iANUEKxGT0vQRWrJn.jpg"
+      },
+      "TMDbId": "901362",
+      "runtime": 92,
+      "releaseDate": "2023-10-12T00:00:00.000Z",
+      "url": {
+        "slug": "movies/901362/trolls-3-se-armo-la-banda"
+      },
+      "rate": {
+        "average": 6.49
+      }
+    },
+    {
+      "titles": {
+        "name": "Resistencia"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/original/c6otMCRG9bZzI97o9V8hCkOgUvA.jpg"
+      },
+      "TMDbId": "670292",
+      "runtime": 133,
+      "releaseDate": "2023-09-27T00:00:00.000Z",
+      "url": {
+        "slug": "movies/670292/resistencia"
+      },
+      "rate": {
+        "average": 7.22
+      }
+    },
+    {
+      "titles": {
+        "name": "Los juegos del hambre: La balada de pájaros cantores y serpientes"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/original/eaiUgabhNozGGmBb1wlUybWoBoQ.jpg"
+      },
+      "TMDbId": "695721",
+      "runtime": 157,
+      "releaseDate": "2023-11-15T00:00:00.000Z",
+      "url": {
+        "slug": "movies/695721/los-juegos-del-hambre-la-balada-de-pajaros-cantores-y-serpientes"
+      },
+      "rate": {
+        "average": 7.31
+      }
+    },
+    {
+      "titles": {
+        "name": "Una Navidad Escandalosa"
+      },
+      "TMDbId": "1192745",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/original/AgqsSyqI4JWYGnnnOD9tI5IS9jp.jpg"
+      },
+      "runtime": 93,
+      "releaseDate": "2023-11-17T00:00:00.000Z",
+      "url": {
+        "slug": "movies/1192745/una-navidad-escandalosa"
+      }
+    },
+    {
+      "titles": {
+        "name": "La magia de la Navidad"
+      },
+      "TMDbId": "1001884",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/original/8n3fLZQT7P9GG45fiHTeUfrHs6V.jpg"
+      },
+      "runtime": 89,
+      "releaseDate": "2023-11-17T00:00:00.000Z",
+      "url": {
+        "slug": "movies/1001884/la-magia-de-la-navidad"
+      }
+    },
+    {
+      "titles": {
+        "name": "Nouveaux riches"
+      },
+      "TMDbId": "1034940",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/original/2P2QVoDVgoIG9nVoTliXjKnj8u7.jpg"
+      },
+      "runtime": 103,
+      "releaseDate": "2023-11-17T00:00:00.000Z",
+      "url": {
+        "slug": "movies/1034940/nouveaux-riches"
+      }
+    },
+    {
+      "titles": {
+        "name": "Please Don't Destroy: The Treasure of Foggy Mountain"
+      },
+      "TMDbId": "1002315",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/original/2WSTjQNamyMoy3kFDemd1os8TNz.jpg"
+      },
+      "runtime": 92,
+      "releaseDate": "2023-11-17T00:00:00.000Z",
+      "url": {
+        "slug": "movies/1002315/please-dont-destroy-the-treasure-of-foggy-mountain"
+      }
+    }
+  ]
+}
