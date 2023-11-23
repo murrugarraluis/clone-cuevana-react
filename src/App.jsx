@@ -1,9 +1,12 @@
-import {Hero} from "./components/Hero.jsx";
-import {Header} from "./components/Header.jsx";
-import {MovieList} from "./components/MovieList.jsx";
+import {Hero} from "./sections/Hero.jsx";
+import {Header} from "./sections/Header.jsx";
 import {useEffect, useState} from "react";
 import MovieData from "./data/movie.json";
 import MoviesData from "./data/movies.json";
+import {Content} from "./sections/Content.jsx";
+import {Footer} from "./sections/Footer.jsx";
+
+const CUEVANA_LOGO_URL = 'https://ww3.cuevana8.com/_next/image?url=/_next/static/media/cuevana8.24457267.png&w=640&q=75'
 
 function App() {
   const [movie, setMovie] = useState({});
@@ -19,13 +22,10 @@ function App() {
   }, []);
   return (
     <>
-      <Header/>
-      <Hero
-        {...movie}
-      />
-      <div id='body' className='px-40'>
-        <MovieList movies={movies}/>
-      </div>
+      <Header logoUrl={CUEVANA_LOGO_URL}/>
+      <Hero{...movie}/>
+      <Content movies={movies}/>
+      <Footer logoUrl={CUEVANA_LOGO_URL}/>
     </>
   )
 }

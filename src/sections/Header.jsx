@@ -1,5 +1,4 @@
-export const Header = () => {
-  const CUEVANA_LOGO_URL = 'https://ww3.cuevana8.com/_next/image?url=/_next/static/media/cuevana8.24457267.png&w=640&q=75'
+export const Header = ({logoUrl}) => {
   const menuItems = ['Inicio', 'Películas', 'Géneros', 'Series']
   const listItemsMenu = () => {
     return (
@@ -15,10 +14,10 @@ export const Header = () => {
     )
   }
   return (
-    <header className='w-full absolute z-10 py-6 flex justify-between px-40'>
+    <header className='w-full absolute z-10 py-6 flex justify-between px-52'>
       <div className='flex justify-center items-center gap-14'>
         <div className=''>
-          <img src={CUEVANA_LOGO_URL} alt="cuevana logo"/>
+          <img src={logoUrl} alt="cuevana logo"/>
         </div>
         {listItemsMenu()}
       </div>

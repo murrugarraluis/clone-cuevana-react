@@ -2,7 +2,7 @@ export const Hero = ({title, overview, imageUrl}) => {
   return (
     <div className='w-full relative'>
       <img src={imageUrl} alt="logo" className='h-128 w-full opacity-20'/>
-      <div className='absolute top-0 left-0 w-full px-40'>
+      <div className='absolute top-0 left-0 w-full px-52'>
         <div className='mt-32 flex flex-col gap-5'>
           <div className="flex justify-start items-center gap-2">
             <h2 className='text-6xl text-white font-bold'>{title}</h2>
