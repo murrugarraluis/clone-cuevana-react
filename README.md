@@ -1,6 +1,9 @@
 # Cuevana Clone
 
 Este proyecto es un clon de la conocida plataforma de streaming "Cuevana". Es un proyecto personal en el que he aplicado y demostrado mis habilidades en la creación de componentes en React, el consumo de datos desde archivos JSON y la implementación de estilos utilizando Tailwind CSS.
+## Demo
+
+Puedes probar una demostración en vivo del proyecto [aquí](https://cuevane-clone-react.onrender.com/).
 
 ## Tecnologías Utilizadas
 
