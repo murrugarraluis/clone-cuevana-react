@@ -2,7 +2,7 @@ import {MovieCard} from "./MovieCard.jsx";
 
 export const MovieGrid = ({movies}) => {
   return (
-    <div className='w-full max-w-3xl p-2 flex gap-2 flex-wrap'>
+    <div className='w-full max-w-3xl p-2 flex gap-2 flex-wrap justify-center lg:justify-start'>
       {
         movies.map((movie) => {
           return (

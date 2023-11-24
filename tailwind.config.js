@@ -8,6 +8,8 @@ export default {
     extend: {
       height: {
         '128': '32rem',
+        '130': '36rem',
+        '132': '40rem',
       },
       fontSize: {
         '2xs': ['0.65rem', {
