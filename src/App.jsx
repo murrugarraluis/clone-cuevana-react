@@ -22,8 +22,8 @@ function App() {
   }, []);
   return (
     <>
-      {/*<Header logoUrl={CUEVANA_LOGO_URL}/>*/}
-      {/*<Hero{...movie}/>*/}
+      <Header logoUrl={CUEVANA_LOGO_URL}/>
+      <Hero{...movie}/>
       <Content movies={movies}/>
       <Footer logoUrl={CUEVANA_LOGO_URL}/>
     </>

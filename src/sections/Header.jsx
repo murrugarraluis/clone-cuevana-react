@@ -14,7 +14,7 @@ export const Header = ({logoUrl}) => {
     )
   }
   return (
-    <header className='w-full absolute z-10 py-6 flex justify-between px-52'>
+    <header className='w-full absolute z-10 py-6 flex justify-between px-12'>
       <div className='flex justify-center items-center gap-14'>
         <div className=''>
           <img src={logoUrl} alt="cuevana logo"/>
