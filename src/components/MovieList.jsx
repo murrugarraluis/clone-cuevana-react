@@ -1,4 +1,3 @@
-import {MovieCard} from "./MovieCard.jsx";
 import {MovieItem} from "./MovieItem.jsx";
 
 export const MovieList = ({movies}) => {
